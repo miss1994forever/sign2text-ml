@@ -1,0 +1,19 @@
+{
+  "batch_size": 32,
+  "num_epochs": 100,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-4,
+  "num_classes": 100,
+  "use_landmarks": true,
+  "early_stopping": 10,
+  "max_seq_len": 60,
+  "model_params": {
+    "frame_dim": [3, 224, 224],
+    "landmark_dim": 126,
+    "lstm_hidden_dim": 512,
+    "lstm_layers": 2,
+    "dropout": 0.5,
+    "bidirectional": true,
+    "attention": true
+  }
+}

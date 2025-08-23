@@ -1,0 +1,14 @@
+{
+  "batch_size": 32,
+  "num_classes": 100,
+  "use_landmarks": true,
+  "max_seq_len": 60,
+  "model_params": {
+    "frame_dim": [3, 224, 224],
+    "lstm_hidden_dim": 512,
+    "lstm_layers": 2,
+    "dropout": 0.5,
+    "bidirectional": true,
+    "attention": true
+  }
+}
