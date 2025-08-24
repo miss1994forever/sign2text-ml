@@ -1,0 +1,21 @@
+{
+    "batch_size": 16,
+    "num_epochs": 30,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "use_landmarks": true,
+    "early_stopping": 10,
+    "max_seq_len": 60,
+    "model_params": {
+        "frame_dim": [
+            3,
+            224,
+            224
+        ],
+        "lstm_hidden_dim": 512,
+        "lstm_layers": 2,
+        "dropout": 0.5,
+        "bidirectional": true,
+        "attention": true
+    }
+}
